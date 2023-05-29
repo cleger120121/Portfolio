@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header>
+        <div id="Space--EqN">
+            <div id="Container--Name">
+                <h1 onclick="reload()">
+                    My Portfolio
+                </h1> 
+            </div>
+        </div>
+
+        <div id="Space--EqM">
+            <div id="Burger--App" onclick="BurgerMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+                <ul id="List--Menu2" class=""> 
+                    <li class="Menu--Lis2">
+                        <p>About Me</p>
+                    </li>
+                    <li class="Menu--Lis2">
+                        <p>My Skills</p>
+                    </li>
+                    <li class="Menu--Lis2">
+                        <p> My Projects</p>
+                    </li>
+                </ul>
+            <nav id="Container--Menu">
+                <ul id="List--Menu">
+                    <li class="Menu--Lis">
+                        <p>About Me</p>
+                    </li>
+                    <li class="Menu--Lis">
+                        <p>My Skills</p>
+                    </li>
+                    <li class="Menu--Lis">
+                        <p> My Projects</p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="Header--Place"></section>
+
+    <div id="Container--Body">
+        <div>
+            <section class="Parts" id="Principal--Part">
+                <div class="Container--Principal" id="Container--Principal--P">
+                    <div id="Container--TextAndTitle">
+                        <div class="Containers--Title" id="Containers--Title">
+                            <h1 class="Title" id="Big--Title" @click="reload()">
+                                Hi, everybody !
+                                <br>
+                                Welcome on my Portfolio
+                            </h1>
+                        </div>
+                        <div id="Containers--Text">
+                            <p class="text">
+                                This is my Portfolio, I hope you'll enjoy it. Here is a little presentation of it, you have 3 principal parts :
+                            </p>
+                                <li> The first is the <b>"About Me"</b> part, in it you will found a presentation of me with how I am, my passion, my motivation, etc. </li>
+                                <li> The second one is the <b>"My Skills"</b> part, in it you will found all my skills and all the tools I master. </li>
+                                <li> The final one is the <b>"My Projects"</b> part, in it you will found a list of all my projects, so you can discover it to have a concrete example.</li>
+                            <p class="text">
+                                Let's scroll !
+                            </p>
+                        </div>
+                    </div>
+                    <div id="Container--Img">
+                        <img src="../assets/ad4c6a25a30e7753bbb68e30388d9b24-sticker.png" alt="">
+                    </div>
+                </div>
+            </section>
+            <section class="Parts" id="AboutMe--Part">
+                <div class="Container--Principal" id="ContainerP--AboutMe">
+                    <div class="Containers--Title" id="Title--AboutMe">
+                        <h1 class="Title">
+                            About Me ...
+                        </h1>
+                    </div>
+                    <div id="Container--AboutMe">
+                        <div id="Content--AboutMe">
+                            <p class="Questions">Who am I ?</p>
+                            <p class="Responses">I'm <b> Bertrand Dubois </b>, <b>28</b> and a <b>Bulgarian student</b> who works at a junk food store while pursuing my studies. In addition to that, I have <b>expertise in frontend development</b>. This is my portfolio aimed at attracting more customers and showcasing my skills in the field.</p>
+                            <p class="Questions">Where am I based ?</p>
+                            <p class="Responses">I'm based in the capital of Bulgaria : <b>Sofia</b>, but also near <b>New York</b> in US</p>
+                            <p class="Questions">My passion ?</p>
+                            <p class="Responses">Yes, frontend development is my passion, in fact I discovered it when I was 13 and since this moment I kept coding sites.</p>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Parts" id="MySkills--Part">
+                <div class="Container--Principal" id="ContainerP--MySkills">
+                    <div class="Containers--Title" id="Title--MySkills">
+                        <h1 class="Title">
+                            My Skills :
+                        </h1>
+                    </div>
+                    <div id="Container--MySkills">
+                        <div id="Content--MySkills">
+                            <ul id="Ul--Master--Cat">
+                                <li>
+                                    <p class="Categories">Front-End</p>
+                                    <ul class="Uls--Master" id="FrontEnd">
+                                        <li>HTML</li>
+                                        <li>CSS</li>
+                                        <li>Responsive</li>
+                                        <li>Vanilla JS</li>
+                                        <li>Vue JS</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="Categories">Back-End</p>
+                                    <ul class="Uls--Master" id="BackEnd">
+                                        <li>Nuxt JS</li>
+                                        <li>PHP</li>
+                                        <li>Sql</li>
+                                        <li>Supabase</li>
+                                        <li>Python</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <p class="Categories">Tools</p>
+                                    <ul class="Uls--Master" id="Tools">
+                                        <li>Github</li>
+                                        <li>Github Pages for Demos </li>
+                                        <li>NPM</li>
+                                        <li>VS code</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="Parts" id="MyProjects--Part">
+                <div class="Container--Principal" id="ContainerP--MyProjects">
+                    <div class="Containers--Title" id="Title--MyProjects">
+                        <h1 class="Title">
+                            My Projects :
+                        </h1>
+                    </div>
+                    <div id="Container--MyProjects">
+                        <div id="Content--MyProjects">
+                            <ul id="Ul--Grid">
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        A Shop for some Bicycle
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        An E-commerce shop ( with accounts )
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        Full Native Association Static Page
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        Concert Site
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        My Portfolio
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        Some Gsap Animation
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        Test for Next JS
+                                    </p>
+                                </li>
+                                <li>
+                                    <div class="IMG--Bc--Div">
+                                        
+                                    </div>
+                                    <p class="Project--Titles">
+                                        Only HTML CSS
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <div id="Fond--Div" >
+        <ul id="Fond--Ul">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+        </ul>
+    </div >
+    <script src="/script.js"></script>
+</body>
+</html>
